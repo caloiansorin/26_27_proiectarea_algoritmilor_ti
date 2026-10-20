@@ -54,3 +54,5 @@ git push -u origin Nume-Prenume
 **Atenție:** lucrează pe branch-ul tău. Nu încărca modificările pe `main`.
 
 La următoarele încărcări, repetă doar comenzile de la pasul 3.
+
+DE AICI O SA COMPLETEZ CAND AM CHEF
