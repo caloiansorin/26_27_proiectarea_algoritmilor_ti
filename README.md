@@ -30,3 +30,43 @@ Acest repository conține implementări în **Python** ale principalilor algorit
 
 Complexitățile pentru Bucket Sort și Radix Sort depind de implementare și de distribuția datelor.
 
+
+## Încărcarea lucrării pe GitHub
+
+Înlocuiește `Nume-Prenume` cu datele tale.
+
+### 1. Descarcă repository-ul și intră în folder
+
+```bash
+git clone https://github.com/caloiansorin/26_27_proiectarea_algoritmilor_ti
+cd REPO
+```
+
+### 2. Treci pe branch-ul tău
+
+Dacă branch-ul există deja:
+
+```bash
+git fetch origin
+git switch Nume-Prenume
+```
+
+Dacă trebuie să creezi un branch nou:
+
+```bash
+git switch -c Nume-Prenume
+```
+
+### 3. Adaugă și trimite modificările
+
+După ce ai salvat fișierele lucrării, rulează:
+
+```bash
+git add .
+git commit -m "Am adăugat rezolvarea"
+git push -u origin Nume-Prenume
+```
+
+**Atenție:** lucrează pe branch-ul tău. Nu încărca modificările pe `main`.
+
+La următoarele încărcări, repetă doar comenzile de la pasul 3.
