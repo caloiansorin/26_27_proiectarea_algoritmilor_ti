@@ -24,10 +24,6 @@ void qsort(int v[], int x[], int m, int n)
         }
     }
     x[a]=v[n];
-    cout << "iteration (" << m << " to " << n << "):\n";
-    for (int i=m; i<=n;i++)
-        cout << x[i] << " ";
-    cout << "\n";
     qsort(x, v, 0, a-1);
     copy (v, x, m, n);
     qsort(x, v, a+1, n);
