@@ -11,8 +11,9 @@ Acest repository conține implementări în **Python** ale principalilor algorit
 5. **Counting Sort** – sortare prin numărare.
 6. **Bucket Sort** – sortare prin distribuire în compartimente.
 7. **Radix Sort** – sortare pe baza pozițiilor cifrelor.
-8. **Heap Sort** – sortare utilizând structura de date heap.
-9. **Tree Sort** – sortare prin arbori binari de căutare.
+8. **Flipping Sort**
+9. **Heap Sort** – sortare utilizând structura de date heap.
+10. **Tree Sort** – sortare prin arbori binari de căutare.
 
 
 ## Încărcarea lucrării pe GitHub
