@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+void flip(int v[], int k)
+{
+    int st = 0, dr = k;
+
+    while (st < dr)
+    {
+        swap(v[st], v[dr]);
+        st++;
+        dr--;
+    }
+}
+
+void flippingSort(int v[], int n)
+{
+    for (int i = n - 1; i > 0; i--)
+    {
+        int pozMax = 0;
+
+        for (int j = 1; j <= i; j++)
+        {
+            if (v[j] > v[pozMax])
+                pozMax = j;
+        }
+
+        if (pozMax != i)
+        {
+            flip(v, pozMax);
+            flip(v, i);
+        }
+    }
+}
+
+int main()
+{
+    int n, v[1000];
+
+    cout << "Introduceti numarul de elemente: ";
+    cin >> n;
+
+    cout << "Introduceti elementele vectorului: ";
+
+    for (int i = 0; i < n; i++)
+        cin >> v[i];
+
+    flippingSort(v, n);
+
+    cout << "Vectorul sortat este: ";
+
+    for (int i = 0; i < n; i++)
+        cout << v[i] << " ";
+
+    return 0;
+}
